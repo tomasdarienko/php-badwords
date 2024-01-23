@@ -10,8 +10,10 @@
      
 
 <form action="dashboard.php" method="GET ">
-     <input type="text" id="paragrafo" placeholder="paragrafo">
-     <input type="text" id="censura"  placeholder="parola da censurare">
+     <input type="text" id="paragrafo" name="paragrafo" placeholder="paragrafo">
+     <input type="text" id="censura" name="censura" placeholder="parola da censurare">
+      
+     <button type="submit">invia</button>
 </form>
 </body>
 </html>

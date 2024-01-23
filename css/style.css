@@ -8,7 +8,9 @@
      padding: 10px;
      padding-bottom: 300px;
      margin: 50px;
-     width: 60%;
+     min-width:  60%;
+     word-break: break-all;
+     overflow: hidden;
      
 }
 
